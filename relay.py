@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO,time
 GPIO.setmode(GPIO.BCM)
-GPIO.setwarnings(false)
+GPIO.setwarnings(False)
 redled - 23
 fountain = 25
 GPIO.setup(redled,GPIO.OUT,initial=GPIO.LOW)
